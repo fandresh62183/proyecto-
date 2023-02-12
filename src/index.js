@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Login } from './Login/Login';
+import { Register } from './Register/Register';
 
-import {Vista} from './Estructura/Vista.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Vista></Vista>
+   <Login/>
+   <Register/>
   </React.StrictMode>
 );
 

@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 50px auto;
+    text-align: center;
+    width: 800px;
+    background-image: url(../assets/pexels-lukas-kloeppel-466685.jpg);
+    background-size: cover;
+}
+h1 {
+    font-family: 'Passion One';
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+input {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+    border-radius :10px;
+}
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #287bbf;
+    width: 500px;
+    background: #c6dce6;
+    border-radius:10%;
+}
+div.form-element {
+    margin: 20px 0;
+}
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: rgb(69, 156, 249);
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
+
